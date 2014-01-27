@@ -1,0 +1,44 @@
+The Log Horizon Project
+
+	Overview
+
+The Log Horizon project is essentially working off of Mana World project in core programming in some aspects. Majority of art assets that include, but not limited to icons, splash screen, tile sets, mini-maps and various shader effects. The Log Horizon have some very notable difference compared to Mana World and the main focus is to make programming accessible to everyone so everyone can contribute with ease and even the artists who have no knowledge in programming can apply their work on this project.
+
+The Log Horizon project will be drastically different to Mana Project in several aspects to enable smooth transition for player's game-play experience and more flexibility for artists to accomplish their goal to recreate the world in their vision.
+	The Vision for Log Horizon Project
+In my vision the game should feels like a 3D game with a more dynamic environment with active wilderness, an active economy, dynamic coloring and shading of sprites with applied color theory for changing day cycle, players building their own home, a government run by players and AI (People of the Land), events that trigger wars and chaos across the land, and so forth. 
+When I fly on Dragon, Griffon, or whatever creature that fly, the game show a menu to select a destination and I can select an undetermined destination and the client would generate motion blurred map to animate flight to my destination and I can modify my course if I wish during the flight similar to Log Horizon anime. I see a campfire near the destination I was going to land, I decided to go off course to a safe distance, however it is normally very difficult to spot a campfire unless it is during the night with large fire. Almost always the campfire can indicate a NPC camp, though it is rarely a player's camp and it is usually posed too big of a risk to land directly in the middle of the camp.
+When I land at my destination, I would call my friend via telepathy which would open a chat channel for 1 on 1 communication to invite him into a party. When I wait, I would set up a tent, campfire, and cook foods that is easy to prepare depending on my level and subclass. I will also accompany the animal I rode on by feeding it and let it be free while in game mechanic, it would simply vanish when leaving far enough from the player only to return instantly when player call for it. I would occasionally see wolves, deers, elks, and birds roaming around my tent and hour pass, I would see my tent become less tan and more orange during the twilight hour then dark blue during the night with soft tint of orange ting on the tent facing the campfire. 
+When I eat a cooked meat, I see my character have satisfied hunger status and being in a happier mood and mending my cut that I received in my recent fight. I proceed to draw a map onto paper, because when I die in game, I lose my memory of the whereabouts and details on the map and it is also a valuable resource for other players who may need it, because game can't be normally mapped like a non-changing environment like World of Warcraft, but environment is being affected by many events and actions of the players and AI alike. The worst event of them all would be the World Fraction, because everything changes all at once.
+I proceed to log out at my tent to save my progress however the tent can be disturbed if it is not well hidden or I was being followed. I can be killed in my camp by another player or NPC if I have not set up the proper countermeasures such as setting up traps, diversion, and misdirections.
+
+A lot of those ideas are all what I want to see in a game like Log Horizon to bring a sense of realism to a game similar to DayZ. A lot of those ideas can be accomplished by tackling one step at a time and leaving mechanism open to changes and being flexible to new ideas.
+	OpenGL with OpenTK
+OpenGL is going to be the core of the gaming experience. The most important reason for going with OpenGL is to enable more advanced control of rendering the game with the features of shading, texture filtering, rapid rendering, motion blurring and cross platform compatibility.
+The possibility with OpenGL is endless, with OpenGL it is possible to render Flying scene over the world map with tons of mix of shading, color degradation, motion blurring, and bringing 3D feels to a 2D game. 
+	Network Overhaul
+The network aspect of Mana Project will have an overhaul for network protocol to improve the security to thwart hacking attempts, high ping game play (600 ms) and safeguard player's information. The protocol will be lay out in the future as the design isn't decided yet. As for internal logic for network handling, the project will focus on optimize threading design to accommodate 1,000 players connectivity. The project will need to be redetermined for cluster servers design if the demand arise to exceed more than 10,000 players connectivity.
+	The Game Engine
+Most of the game logic will be worked off of Mana Project to apply the gaming logic such as tile mapping, collision, combat, dialogues, menu layout, and so forth. However, some of the logic will be modified to support a more seamless game-play and support a more dynamic environment such as crafting, building houses, after-effect of a fight, and so to speak.
+	Documentation Requirement
+As many may disagree, the Log Horizon is going to focus most of the resources on documentation, because this entirely eliminate repeated efforts, allowing new developers to contribute with ease, and solving a potential design issue at a much earlier stage.
+	Dynamic Game Mechanic
+The focus of the project is going to be on Dynamic Game Mechanic to allow flexibility to extend new rules to the game or to remove the old rules as well as applying different effect to the game. The mechanism of this is to allow an easier implementation for a game changing effect. For an example, game may start out a simple RPG as a turn based combat, then evolve into a real time combat system which eliminate turn based combat and allow a more dynamic combat scenario. This mechanism aims to eliminate the need of implementing mods and allow the developer to create the game that matches their vision.
+	AI Programming
+In the future, the project will focus on AI interface to allow developers to contribute by programming in Lua, Python (Via IronPython), C#, C, C++, D, and so forth. The client will allow dynamic AI loading to offer developer better control on developing new AI. AI programming will not only apply to NPC, but also can apply as a mechanism to world changing environment. 
+	Flexibility to Creating Different Games
+Part of the goal of this project is to set up a system to allow different community to create and implement their own game in their own vision. This will create an ecosystem of modification and ideas for several communities to contribute to the project to improve the game for everyone.
+
+
+	The Basic Goals of Project Log Horizon
+	Establish Documentation Requirements
+	Layout the Design for the Game
+	Implement Fundamental Code for Game Engine
+	Integrate Logic for Implementing Code in different programming languages
+	Implement The Logic for Game-Play
+	Implement Storage Logic (Database or Files for Data Container)
+	Implement Dynamic Game Mechanic for the Game Engine
+	Implement And Experiment Shaders/Art Assets/Tiles Map
+	Create Maps And Experiment the Game
+	Implement Flexible Network Logic (Protocol that can cope with ever-changing mechanism)
+	Continue to Improve the Game
